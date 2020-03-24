@@ -5,6 +5,12 @@
 public class LoadCommand implements Command {
     private Document loadDoc;
 
+    /**
+     * Creates the LoadCommand object and initializes loadDoc
+     *
+     * @param: Document
+     * @return: None
+     */
     public LoadCommand(Document doc) {
         loadDoc = doc;
     }

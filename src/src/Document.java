@@ -4,7 +4,12 @@
  */
 public class Document {
     String docName;
-
+    /**
+     * Creates the Document object, initializes docName, and prints out the name
+     *
+     * @param: String
+     * @return: None
+     */
     public Document(String name) {
         docName = name;
         System.out.println("Document named " + name + " is created");

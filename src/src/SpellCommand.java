@@ -5,6 +5,12 @@
 public class SpellCommand implements Command {
     private Document spellDoc;
 
+    /**
+     * Creates the SpellCommand object and initializes spellDoc
+     *
+     * @param: Document
+     * @return: None
+     */
     public SpellCommand(Document doc) {
         spellDoc = doc;
     }
