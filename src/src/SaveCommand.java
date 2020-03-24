@@ -5,6 +5,12 @@
 public class SaveCommand implements Command {
     private Document saveDoc;
 
+    /**
+     * Creates the SaveCommand object and initializes saveDoc
+     *
+     * @param: Document
+     * @return: None
+     */
     public SaveCommand(Document doc) {
         saveDoc = doc;
     }

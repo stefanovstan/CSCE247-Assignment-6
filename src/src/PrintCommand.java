@@ -4,7 +4,12 @@
  */
 public class PrintCommand implements Command {
     private Document printDoc;
-
+    /**
+     * Creates the PrintCommand object and initializes printDoc
+     *
+     * @param: Document
+     * @return: None
+     */
     public PrintCommand(Document doc) {
         printDoc = doc;
     }
