@@ -7,7 +7,12 @@ import java.util.HashMap;
 public class InputHandler {
 
     private HashMap<String, Command> commands;
-
+    /**
+     * Handles the entered commands and puts them into the HashMap
+     *
+     * @param: Document
+     * @return: None
+     */
     public InputHandler(Document document) {
         commands = new HashMap<>();
         commands.put("load", new LoadCommand(document));
