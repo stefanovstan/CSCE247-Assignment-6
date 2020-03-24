@@ -1,6 +1,6 @@
 /**
- * Author: Stanislav Stefanov
- * Purpose of Class: Inherits Command class then specializes it for the Save Command
+ * Author: Tom Grogan
+ * Purpose of Class: Inherits Command class then customizes the output specific for the Save Command.
  */
 public class SaveCommand implements Command {
     private Document saveDoc;
@@ -10,7 +10,7 @@ public class SaveCommand implements Command {
     }
 
     /**
-     * Executes what the SaveCommand is supposed to do
+     * Executes the Save Command
      *
      * @param: None
      * @return: None

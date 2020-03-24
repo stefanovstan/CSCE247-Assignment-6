@@ -1,6 +1,6 @@
 /**
- * Author: Stanislav Stefanov
- * Purpose of Class: Inherits Command class then specializes it for the Print Command
+ * Author: Tom Grogan
+ * Purpose of Class: Inherits Command class then customizes the output specific for the Print Command.
  */
 public class PrintCommand implements Command {
     private Document printDoc;
@@ -10,7 +10,7 @@ public class PrintCommand implements Command {
     }
 
     /**
-     * Executes what the PrintCommand is supposed to do
+     * Executes the Print Command.
      *
      * @param: None
      * @return: None
